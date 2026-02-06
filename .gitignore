@@ -1,0 +1,16 @@
+# 설정 및 인증 파일
+.env
+*.json
+!requirements.json # 만약 필요한 json이 있다면 제외, 하지만 키 파일은 반드시 차단
+
+# 파이썬 가상환경 및 캐시
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+rag_env/
+
+# 로그 및 데이터
+logs/
+*.log
+*.pdf

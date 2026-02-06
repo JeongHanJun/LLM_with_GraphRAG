@@ -1,0 +1,72 @@
+﻿id,name,label,desc,page
+roadscope_9,Roadscope 9,Device,통합 사양서 (페이지 1),1
+aimatics,AIMATICS,Vendor,벤더 (페이지 2),2
+r9_body,R9 본체,Component,"본체에는 GPS, IMU, 카메라, 온도 센서가 내장되어 있다 (페이지 3)",3
+gps,GPS,Sensor,위치 정보 기록을 위해 외장 GPS를 사용한다 (페이지 6),6
+imu,IMU,Sensor,6-axis IMU sensor (페이지 3),3
+camera,카메라,Sensor,전방 카메라 (페이지 4),4
+temperature_sensor,온도 센서,Sensor,온도 센서 (페이지 3),3
+lte_modem,LTE 모뎀,Component,LTE 모뎀을 이용한 클라우드 서버 연동 (페이지 2),2
+hub,HUB,Component,차량 및 주변장치와 연결하기 위해 HUB가 포함되어 있다 (페이지 6),6
+display,디스플레이,Component,LCD 디스플레이 (페이지 7),7
+ccr,CCR,Component,차량 연결을 위해 차량 배선의 직접 연결 없이 CAN 신호를 읽을수 있는 장치 (페이지 7),7
+mcu,MCU,Component,"MCU는 Application, Hardware Abstraction Layer, Hardware로 구성되어 있다 (페이지 11)",11
+RTOS,RTOS,Operating System,"RTOS는 App F/W Layer, SDK Layer, Kernel Layer, Hardware Layer로 구성되어 있다 (페이지 10)",10
+ambalink,Ambalink,Software,"Ambalink는 Applications, Daemons/Services, Libraries의 세 개의 영역으로 나눠 진다 (페이지 9)",9
+linux,Linux,Operating System,리눅스는 RTOS에서 제공하는 데이터를 기반으로 정보를 가공하여 네트워크상의 요청사항 대응 및 파일 전송을 담당한다 (페이지 8),8
+r9_device,R9 Device,Device,R9 device description (페이지 16),16
+front_camera,Front Camera,Camera,Front camera description (페이지 16),16
+internal_camera,Internal Camera,Camera,Internal camera description (페이지 16),16
+video_quality_setting,Video Quality Setting,Setting,Video quality setting description (페이지 16),16
+bitrate_setting,Bitrate Setting,Setting,Bitrate setting description (페이지 16),16
+encoding_type,Encoding Type,Setting,Encoding type description (페이지 16),16
+meta_data,Meta Data,Data,Meta data description (페이지 17),17
+file_system,File System,System,File system description (페이지 17),17
+video_upload,Video Upload,Function,Video upload description (페이지 17),17
+dca_device_info,DCA Device Info,Info,DCA device info description (페이지 18),18
+dca_vehicle_info,DCA Vehicle Info,Info,DCA vehicle info description (페이지 18),18
+dca_realtime_info,DCA Realtime Info,Info,DCA realtime info description (페이지 18),18
+dca_event_info,DCA Event Info,Info,DCA event info description (페이지 18),18
+dca_adas_info,DCA ADAS Info,Info,DCA ADAS info description (페이지 18),18
+stillcut,Stillcut,Function,Stillcut description (페이지 19),19
+ai_warning,AI Warning,Function,AI warning description (페이지 20),20
+ldw,LDW (Lane Departure Warning),Function,LDW description (페이지 21),21
+pcw,PCW (Pedestrian Collision Warning),Function,PCW description (페이지 21),21
+vcw,VCW (Vehicle Collision Warning),Function,VCW description (페이지 21),21
+vbw,VBW (Virtual Bumper Warning),Function,VBW description (페이지 21),21
+sda,SDA (Safety Distance Alert),Function,SDA description (페이지 21),21
+fcda,FCDA (Front Car Departure Alert),Function,FCDA description (페이지 22),22
+aa,AA (Attention Assistant),Function,AA description (페이지 22),22
+osw,OSW (Over Speed Warning),Function,OSW description (페이지 22),22
+dsm_calibration,DSM Calibration,Function,DSM calibration description (페이지 22),22
+daw,DAW (Driver Action Warning),Function,DAW description (페이지 22),22
+ddw,DDW (Driver Distraction/Drowsy Warning),Function,DDW description (페이지 23),23
+smart_event,Smart Event,Function,Smart event description (페이지 24),24
+front_smart_event,Front Smart Event,Function,Front smart event description (페이지 24),24
+cabin_smart_event,Cabin Smart Event,Function,Cabin smart event description (페이지 25),25
+illegal_turn,Illegal Turn,Function,Illegal turn description (페이지 25),25
+signal_violation,Signal Violation,Function,Signal violation description (페이지 25),25
+central_line_invasion,Central Line Invasion,Function,Central line invasion description (페이지 25),25
+safety_distance_not_secured,Safety Distance Not Secured,Function,Safety distance not secured description (페이지 25),25
+frequent_lane_change,Frequent Lane Change,Function,Frequent lane change description (페이지 25),25
+dsm_calibration_cabin,DSM Calibration (Cabin),Function,DSM calibration (cabin) description (페이지 25),25
+seatbelt_not_worn,Seatbelt Not Worn,Function,Seatbelt not worn description (페이지 25),25
+head_turn,Head Turn,Function,Head turn description (페이지 26),26
+drowsy_driving,Drowsy Driving,Function,Drowsy driving description (페이지 26),26
+phone_use,Phone Use,Function,Phone use description (페이지 26),26
+smoking,Smoking,Function,Smoking description (페이지 26),26
+safety_event,Safety Event,Event,Safety event definition (페이지 27),27
+front_event,Front Event,Event,Front event description (페이지 28),28
+adas_function,ADAS Function,Function,ADAS function description (페이지 29),29
+setting_values,Setting Values,Setting,Setting values description (페이지 30),30
+install_setting,Install Setting,Setting,Install setting description (페이지 30),30
+adas_setting,ADAS Setting,Setting,ADAS setting description (페이지 31),31
+view_only_setting,View Only Setting,Setting,View only setting description (페이지 33),33
+time_setting,Time Setting,Setting,Time setting description (페이지 31),31
+gps_time_setting,GPS Time Setting,Setting,GPS time setting description (페이지 31),31
+network_time_setting,Network Time Setting,Setting,Network time setting description (페이지 31),31
+camera_setting,Camera Setting,Setting,Camera setting description (페이지 32),32
+driver_monitoring,Driver Monitoring,Function,Driver monitoring description (페이지 32),32
+safety_features,Safety Features,Feature,Safety features description (페이지 33),33
+harsh_event,Harsh Event,Event,Harsh event description (페이지 33),33
+auto_calibration,Auto Calibration,Function,Auto calibration description (페이지 33),33
